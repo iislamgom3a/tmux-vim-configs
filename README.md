@@ -21,7 +21,7 @@ $ git clone https://github.com/tmux-plugins/tmux-cpu ~/.config/tmux/plugins/
 ```
 ### 4.run this command to apply changes
 ```bash
-source ~/.tmux.conf
+tmux source-file ~/.tmux.conf
 ```
 ---
 
