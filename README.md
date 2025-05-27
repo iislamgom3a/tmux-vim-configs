@@ -31,8 +31,6 @@ This guide explains how to install and configure Neovim with useful plugins and 
 
 ---
 
-## Prerequisites
-
 ## Installation Steps
 
 ### 1.Install Prerequisites
