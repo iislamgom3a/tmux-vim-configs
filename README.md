@@ -38,8 +38,8 @@ This guide explains how to install and configure Neovim with useful plugins and 
 ```bash
 sudo apt install neovim curl git 
 ```
-> [!tip] Title
->  Neovim 0.8.0 or higher is required 
+> 
+> NOTE: Neovim 0.8.0 or higher is required 
 
 
 ### 2. Install Node.js (Required for coc.nvim)
