@@ -67,14 +67,18 @@ nvim ~/.config/nvim/init.vim
 **Paste the contents from your config.**
 
 ---
-
-### 6. Install Plugins
+### 6. Intall Plugin manager
+```sh
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+### 7. Install Plugins
 
 ```vim
 :PlugInstall
 ```
 
-### 7. Install Coc Extensions (Optional)
+### 8. Install Coc Extensions (Optional)
 
 Inside Neovim, run:
 
