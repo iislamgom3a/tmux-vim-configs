@@ -1,7 +1,7 @@
 syntax on
 set relativenumber      " Show relative line numbers
-set tabstop=4           " Number of spaces per tab
-set shiftwidth=4        " Indentation width
+set tabstop=2           " Number of spaces per tab
+set shiftwidth=2        " Indentation width
 set expandtab           " Use spaces instead of tabs
 set autoindent          " Auto-indent new lines
 set wrap                " Wrap long lines
@@ -18,8 +18,3 @@ inoremap <C-h> <C-w>
 nnoremap gD gD:noh<CR>
 colorscheme industry
 
-call plug#begin()
-
-" List your plugins here
-
-call plug#end()
